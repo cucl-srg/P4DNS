@@ -1,0 +1,5 @@
+# This is the location of the Vivado source on the /local/ machine.
+# This is just for personal workflow.
+VivadoSetting: /home/Vivado/2016.4/settings64.sh
+VivadoLocation: /home/Vivado/2016.4/bin/
+XMDLocation: /home/SDK/2016.4/bin/

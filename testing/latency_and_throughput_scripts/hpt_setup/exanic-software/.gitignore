@@ -1,0 +1,14 @@
+.*
+exanic-*.tar.gz
+doc/*.odt
+doc/*.pdf
+src/docs/*
+**/*.o
+**/*.a
+**/*.symvers
+**/*.mod.c
+**/*.ko
+**/*.so
+util/exanic-clock-check
+!.gitignore
+*~

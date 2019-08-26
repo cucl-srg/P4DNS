@@ -1,0 +1,5 @@
+To build, get the P4-NetFPGA repository here: https://github.com/NetFGPA/P4-NetFPGA-live.
+
+Once you have that, put P4DNS in /contrib-projects/sume-sdnet-switch/projects/P4DNS.
+
+Then, follow the build instructions on the P4-NetFPGA repository to build a contrib project.

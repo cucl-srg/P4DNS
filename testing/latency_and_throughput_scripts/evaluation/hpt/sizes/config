@@ -1,0 +1,19 @@
+# This is a config file.
+MachineA: nf-server13.nf.cl.cam.ac.uk
+MachineB: nf-server12.nf.cl.cam.ac.uk
+HPTInterface0: exa0
+HPTInterface1: exa1
+# These CPUS should be as described in the ExanicExact documentation: basically, close to the NVMe and the ExaNIC.
+# They should definitely be different CPUs, since both
+# ports can be running at the same time.
+HPTCPUs0: 44:45:46
+HPTCPUs1: 47:48:49
+# Note that the NVMe device must be formatted etc.
+# Should be at least 2TB.
+NVMeDeviceName:  /dev/nvme0n1p1
+# This may be the normal HD or an external disk.
+# Files are generally compressed before being stored
+# here.
+LTSLocations: /root/jcw78/lts
+# Number of runs for the test:
+Runs: 1

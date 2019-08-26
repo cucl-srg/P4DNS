@@ -1,0 +1,4 @@
+- For latency and throughput tests, see the latency_and_throughput_scripts/README.md
+- For functional tests, see functional_tests/README.md
+- For generating graphs and results, see generating_graphs/README.md
+- We have a functional validation environment locatied in $NF_DESIGN_DIR/test $P4_PROJECT_DIR/testdata.
